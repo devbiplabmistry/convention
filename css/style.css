@@ -140,6 +140,7 @@ p {
     background-color: #3F87F5;
     border-radius: 8px;
 }
+
 /* package part start Here */
 #package {
     margin: 100px 0;
@@ -236,6 +237,7 @@ p {
     position: relative;
     display: inline-block;
 }
+
 .package-title h3:after {
     position: absolute;
     content: '';
@@ -248,6 +250,7 @@ p {
     visibility: hidden;
     transition: all linear .3s;
 }
+
 .package-title:hover ::after {
     opacity: 1;
     visibility: visible;
@@ -289,31 +292,35 @@ p {
 
 /* package  part End here */
 /* clients part End Here */
-.clients-item .card-body{
-position: relative;
-text-align: center;
+.clients-item .card-body {
+    position: relative;
+    text-align: center;
 }
+
 .clients-item {
     border-radius: 5px;
     box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.13);
 }
-.clients-item .card-body p{
+
+.clients-item .card-body p {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-    color:  #6C6C6C;
+    color: #6C6C6C;
     margin-bottom: 15px;
-    padding: 0  43px;
+    padding: 0 43px;
 }
-.clients-item .card-body h5{
+
+.clients-item .card-body h5 {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 14px;
-    color:  #0C1920;
+    color: #0C1920;
     margin-bottom: 8px;
 }
-.card-img{
+
+.card-img {
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -321,39 +328,46 @@ text-align: center;
     line-height: 100px;
     position: absolute;
     left: 50%;
-    transform: translate(-50% );
+    transform: translate(-50%);
 }
-.card-title{
+
+.card-title {
     padding-top: 150px;
     text-align: center;
 }
-.clients-gap{
+
+.clients-gap {
     margin-top: -100px;
     margin-bottom: 100px;
 }
-.q-gap{
+
+.q-gap {
     margin-top: -100px;
 }
+
 /* clients part start Here */
 /* footer part start Here */
-#footer{
+#footer {
     background-color: #000;
-    padding: 55px 165px 80px   0 ;
+    padding: 55px 165px 80px 0;
 }
 
-.right-footer p{
+.right-footer p {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 18px;
     color: #D9DBE1;
 }
-.left{
+
+.left {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 14px;
     color: #D9DBE1;
 }
-.footer-wrapper{
+
+.footer-wrapper {
     align-items: center;
 }
+
 /* footer-part End Here */
