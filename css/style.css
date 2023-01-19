@@ -140,7 +140,7 @@ p {
     background-color: #3F87F5;
     border-radius: 8px;
 }
-
+/* package part start Here */
 #package {
     margin: 100px 0;
 }
@@ -288,7 +288,7 @@ p {
 }
 
 /* package  part End here */
-/*  */
+/* clients part End Here */
 .clients-item .card-body{
 position: relative;
 text-align: center;
@@ -329,4 +329,31 @@ text-align: center;
 }
 .clients-gap{
     margin-top: -100px;
+    margin-bottom: 100px;
 }
+.q-gap{
+    margin-top: -100px;
+}
+/* clients part start Here */
+/* footer part start Here */
+#footer{
+    background-color: #000;
+    padding: 55px 165px 80px   0 ;
+}
+
+.right-footer p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #D9DBE1;
+}
+.left{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #D9DBE1;
+}
+.footer-wrapper{
+    align-items: center;
+}
+/* footer-part End Here */
