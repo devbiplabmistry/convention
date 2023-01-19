@@ -18,7 +18,8 @@ h2,
 h3,
 h4,
 h5,
-h6,p {
+h6,
+p {
     line-height: 0.8;
     margin-bottom: 0;
 }
@@ -139,16 +140,19 @@ h6,p {
     background-color: #3F87F5;
     border-radius: 8px;
 }
-#package{
+
+#package {
     margin: 100px 0;
 }
-.package-item h3{
+
+.package-item h3 {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 36px;
     color: #231D4F;
 }
-.package-item h4{
+
+.package-item h4 {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 28px;
@@ -156,69 +160,100 @@ h6,p {
     margin-top: 20px;
     margin-bottom: 10px;
 }
-.package-item p{
+
+.package-item p {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 15px;
     color: #848199;
     line-height: 22px;
 }
-.package-item p i{
-  width: 20px;
-  height: 20px;
-  background-color: rgba(82, 67, 194, 0.103693);
-  border-radius: 50%;
-  text-align: center;
-  line-height: 20px;
-  color: #5243C2;
-  margin-right: 8px;
-  display: inline-block;
-  font-size: 10px;
-  margin-bottom: 10px;
-}
-.inner-p{
+
+.package-item p i {
+    width: 20px;
+    height: 20px;
+    background-color: rgba(82, 67, 194, 0.103693);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    color: #5243C2;
+    margin-right: 8px;
+    display: inline-block;
+    font-size: 10px;
     margin-bottom: 10px;
 }
-.third-package{
-    padding: 50px 30px  43px 30px;
-    background-color:  #3F87F5;
+
+.inner-p {
+    margin-bottom: 10px;
+}
+
+.third-package {
+    padding: 50px 30px 43px 30px;
+    background-color: #3F87F5;
     border-radius: 25px;
     box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
+    margin-top: -100px;
 }
-.third-package h3{
-  color: #fff;
+
+.third-package h3 {
+    color: #fff;
 }
-.third-package h4{
-  color: #fff;
+
+.third-package h4 {
+    color: #fff;
 }
+
 .third-package p {
-  color: #fff;
+    color: #fff;
 }
-.third-package p i{
-  color: #fff;
+
+.third-package p i {
+    color: #fff;
 }
-.third-package a{
-  background-color: #fff !important;
+
+.third-package a {
+    background-color: #fff !important;
 }
-.package-item a{
+
+.package-item a {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 15px;
-    color:  #3F87F5;
-    padding: 13px  55px;
+    color: #3F87F5;
+    padding: 13px 55px;
     background-color: rgba(244, 150, 210, 0.1);
     border-radius: 24px;
     display: inline-block;
     margin-top: 10px;
 }
-.package-title h3{
+
+.package-title h3 {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 38px;
     color: #0A0826;
-    margin-bottom: 110px;
+    margin-bottom: 205px;
+    position: relative;
+    display: inline-block;
 }
-.package-item span{
+.package-title h3:after {
+    position: absolute;
+    content: '';
+    bottom: -8px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #3F87F5;
+    opacity: 0;
+    visibility: hidden;
+    transition: all linear .3s;
+}
+.package-title:hover ::after {
+    opacity: 1;
+    visibility: visible;
+}
+
+.package-item span {
     position: absolute;
     top: -10px;
     right: 10px;
@@ -226,26 +261,72 @@ h6,p {
     height: 27px;
     border-radius: 18px;
 }
-.package-item span h5{
+
+.package-item span h5 {
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
     font-size: 14px;
-    color:  #fff;
+    color: #fff;
     line-height: 18px;
     position: relative;
 }
-.package-item span h5::after{
-   position: absolute;
-   content: '';
-   width: 100%;
-   height: 1px;
-   background-color: #3F87F5;
-   bottom: 0;
-   left: 0;
-   opacity: 0;
-   transition: all linear .3s;
+
+.package-item span h5::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: #3F87F5;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    transition: all linear .3s;
 }
-.package-item span:hover ::after{
-   opacity: 1;
+
+.package-item span:hover ::after {
+    opacity: 1;
 }
-/* moment part End here */
+
+/* package  part End here */
+/*  */
+.clients-item .card-body{
+position: relative;
+text-align: center;
+}
+.clients-item {
+    border-radius: 5px;
+    box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.13);
+}
+.clients-item .card-body p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color:  #6C6C6C;
+    margin-bottom: 15px;
+    padding: 0  43px;
+}
+.clients-item .card-body h5{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color:  #0C1920;
+    margin-bottom: 8px;
+}
+.card-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    line-height: 100px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50% );
+}
+.card-title{
+    padding-top: 150px;
+    text-align: center;
+}
+.clients-gap{
+    margin-top: -100px;
+}
