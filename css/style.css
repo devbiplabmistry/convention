@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ol,ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+    line-height: 0.8;
+}
+/* common css End Here */
+/* navbar part start here */
+.navbar-brand a h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #3E3E3E;
+}
+.nav-item .nav-link{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #3E3E3E;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
